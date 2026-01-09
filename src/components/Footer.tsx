@@ -43,11 +43,11 @@ const Footer = () => {
                 <span>{formattedPhone}</span>
               </a>
               <a
-                href="mailto:contact@leilapatisserie.fr"
+                href="mailto:chaouch.leila@hotmail.fr"
                 className="flex items-center space-x-3 text-gray-400 hover:text-gold-300 transition-colors"
               >
                 <Mail size={20} />
-                <span>contact@leilapatisserie.fr</span>
+                <span>chaouch.leila@hotmail.fr</span>
               </a>
             </div>
           </motion.div>
@@ -61,16 +61,10 @@ const Footer = () => {
             <h3 className="text-xl font-serif font-bold mb-4 text-gold-300">Suivez-nous</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/ley_med?igsh=MTExaWV6cWZmMms4NA=="
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold-500 transition-colors"
               >
                 <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gold-500 transition-colors"
-              >
-                <Facebook size={20} />
               </a>
             </div>
           </motion.div>
