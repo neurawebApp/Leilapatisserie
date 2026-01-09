@@ -30,6 +30,24 @@ const QuoteForm = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+    
+    // Créer le contenu de l'email
+    const emailBody = `
+Nouvelle demande de devis
+
+Nom: ${formData.name}
+Email: ${formData.email}
+Téléphone: ${formData.phone}
+Type de prestation: ${formData.serviceType}
+
+Détails du projet:
+${formData.details}
+    `.trim();
+
+    // Ouvrir le client email par défaut
+    const mailtoLink = `mailto:chaouch.leila@hotmail.fr?subject=Demande de devis - ${formData.serviceType}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = mailtoLink;
+    
     setIsSubmitted(true);
     setTimeout(() => {
       setFormData({
