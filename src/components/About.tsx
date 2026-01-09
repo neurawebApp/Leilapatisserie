@@ -32,7 +32,7 @@ const About = () => {
           >
             <div className="relative h-[400px] sm:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1556910110-a5a63dfd393c?q=80&w=2070&auto=format&fit=crop"
+                src="/patissiere.jpg"
                 alt="Leila en train de créer"
                 className="w-full h-full object-cover"
               />
